@@ -7,7 +7,7 @@ Overview
 Simple ticker view.
 
 ## Demo
-
+![DEMO](https://github.com/yuu0920/YTTickerView/blob/master/demo.gif)
 ## Usage
 
 ```
