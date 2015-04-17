@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA72629A1AD8E9C2001C1052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7262991AD8E9C2001C1052 /* main.m */; };
+		CA72629D1AD8E9C2001C1052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72629C1AD8E9C2001C1052 /* AppDelegate.m */; };
+		CA7262A01AD8E9C2001C1052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72629F1AD8E9C2001C1052 /* ViewController.m */; };
+		CA7262A31AD8E9C2001C1052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7262A11AD8E9C2001C1052 /* Main.storyboard */; };
+		CA7262A51AD8E9C2001C1052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7262A41AD8E9C2001C1052 /* Images.xcassets */; };
+		CA7262A81AD8E9C2001C1052 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7262A61AD8E9C2001C1052 /* LaunchScreen.xib */; };
+		CA7262B41AD8E9C2001C1052 /* YTTickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7262B31AD8E9C2001C1052 /* YTTickerViewDemoTests.m */; };
+		CA7262C21AD8EAB2001C1052 /* YTTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7262C11AD8EAB2001C1052 /* YTTickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA7262AE1AD8E9C2001C1052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA72628C1AD8E9C2001C1052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA7262931AD8E9C2001C1052;
+			remoteInfo = YTTickerViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA7262941AD8E9C2001C1052 /* YTTickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTTickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7262981AD8E9C2001C1052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7262991AD8E9C2001C1052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA72629B1AD8E9C2001C1052 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA72629C1AD8E9C2001C1052 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA72629E1AD8E9C2001C1052 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA72629F1AD8E9C2001C1052 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA7262A21AD8E9C2001C1052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA7262A41AD8E9C2001C1052 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA7262A71AD8E9C2001C1052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA7262AD1AD8E9C2001C1052 /* YTTickerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTTickerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7262B21AD8E9C2001C1052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7262B31AD8E9C2001C1052 /* YTTickerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTickerViewDemoTests.m; sourceTree = "<group>"; };
+		CA7262C01AD8EAB2001C1052 /* YTTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YTTickerView.h; path = YTTickerView/YTTickerView.h; sourceTree = "<group>"; };
+		CA7262C11AD8EAB2001C1052 /* YTTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YTTickerView.m; path = YTTickerView/YTTickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA7262911AD8E9C2001C1052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7262AA1AD8E9C2001C1052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA72628B1AD8E9C2001C1052 = {
+			isa = PBXGroup;
+			children = (
+				CA7262961AD8E9C2001C1052 /* YTTickerViewDemo */,
+				CA7262B01AD8E9C2001C1052 /* YTTickerViewDemoTests */,
+				CA7262951AD8E9C2001C1052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA7262951AD8E9C2001C1052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA7262941AD8E9C2001C1052 /* YTTickerViewDemo.app */,
+				CA7262AD1AD8E9C2001C1052 /* YTTickerViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA7262961AD8E9C2001C1052 /* YTTickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA7262BF1AD8EA6B001C1052 /* YTTickerView */,
+				CA72629B1AD8E9C2001C1052 /* AppDelegate.h */,
+				CA72629C1AD8E9C2001C1052 /* AppDelegate.m */,
+				CA72629E1AD8E9C2001C1052 /* ViewController.h */,
+				CA72629F1AD8E9C2001C1052 /* ViewController.m */,
+				CA7262A11AD8E9C2001C1052 /* Main.storyboard */,
+				CA7262A41AD8E9C2001C1052 /* Images.xcassets */,
+				CA7262A61AD8E9C2001C1052 /* LaunchScreen.xib */,
+				CA7262971AD8E9C2001C1052 /* Supporting Files */,
+			);
+			path = YTTickerViewDemo;
+			sourceTree = "<group>";
+		};
+		CA7262971AD8E9C2001C1052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7262981AD8E9C2001C1052 /* Info.plist */,
+				CA7262991AD8E9C2001C1052 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA7262B01AD8E9C2001C1052 /* YTTickerViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA7262B31AD8E9C2001C1052 /* YTTickerViewDemoTests.m */,
+				CA7262B11AD8E9C2001C1052 /* Supporting Files */,
+			);
+			path = YTTickerViewDemoTests;
+			sourceTree = "<group>";
+		};
+		CA7262B11AD8E9C2001C1052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7262B21AD8E9C2001C1052 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA7262BF1AD8EA6B001C1052 /* YTTickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CA7262C01AD8EAB2001C1052 /* YTTickerView.h */,
+				CA7262C11AD8EAB2001C1052 /* YTTickerView.m */,
+			);
+			name = YTTickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA7262931AD8E9C2001C1052 /* YTTickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7262B71AD8E9C3001C1052 /* Build configuration list for PBXNativeTarget "YTTickerViewDemo" */;
+			buildPhases = (
+				CA7262901AD8E9C2001C1052 /* Sources */,
+				CA7262911AD8E9C2001C1052 /* Frameworks */,
+				CA7262921AD8E9C2001C1052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTTickerViewDemo;
+			productName = YTTickerViewDemo;
+			productReference = CA7262941AD8E9C2001C1052 /* YTTickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA7262AC1AD8E9C2001C1052 /* YTTickerViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7262BA1AD8E9C3001C1052 /* Build configuration list for PBXNativeTarget "YTTickerViewDemoTests" */;
+			buildPhases = (
+				CA7262A91AD8E9C2001C1052 /* Sources */,
+				CA7262AA1AD8E9C2001C1052 /* Frameworks */,
+				CA7262AB1AD8E9C2001C1052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA7262AF1AD8E9C2001C1052 /* PBXTargetDependency */,
+			);
+			name = YTTickerViewDemoTests;
+			productName = YTTickerViewDemoTests;
+			productReference = CA7262AD1AD8E9C2001C1052 /* YTTickerViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA72628C1AD8E9C2001C1052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = YuuTanimura;
+				TargetAttributes = {
+					CA7262931AD8E9C2001C1052 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CA7262AC1AD8E9C2001C1052 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CA7262931AD8E9C2001C1052;
+					};
+				};
+			};
+			buildConfigurationList = CA72628F1AD8E9C2001C1052 /* Build configuration list for PBXProject "YTTickerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA72628B1AD8E9C2001C1052;
+			productRefGroup = CA7262951AD8E9C2001C1052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA7262931AD8E9C2001C1052 /* YTTickerViewDemo */,
+				CA7262AC1AD8E9C2001C1052 /* YTTickerViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA7262921AD8E9C2001C1052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7262A31AD8E9C2001C1052 /* Main.storyboard in Resources */,
+				CA7262A81AD8E9C2001C1052 /* LaunchScreen.xib in Resources */,
+				CA7262A51AD8E9C2001C1052 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7262AB1AD8E9C2001C1052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA7262901AD8E9C2001C1052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7262A01AD8E9C2001C1052 /* ViewController.m in Sources */,
+				CA72629D1AD8E9C2001C1052 /* AppDelegate.m in Sources */,
+				CA72629A1AD8E9C2001C1052 /* main.m in Sources */,
+				CA7262C21AD8EAB2001C1052 /* YTTickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7262A91AD8E9C2001C1052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7262B41AD8E9C2001C1052 /* YTTickerViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA7262AF1AD8E9C2001C1052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA7262931AD8E9C2001C1052 /* YTTickerViewDemo */;
+			targetProxy = CA7262AE1AD8E9C2001C1052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA7262A11AD8E9C2001C1052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7262A21AD8E9C2001C1052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA7262A61AD8E9C2001C1052 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7262A71AD8E9C2001C1052 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA7262B51AD8E9C3001C1052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA7262B61AD8E9C3001C1052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA7262B81AD8E9C3001C1052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTTickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA7262B91AD8E9C3001C1052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTTickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA7262BB1AD8E9C3001C1052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YTTickerViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTTickerViewDemo.app/YTTickerViewDemo";
+			};
+			name = Debug;
+		};
+		CA7262BC1AD8E9C3001C1052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YTTickerViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTTickerViewDemo.app/YTTickerViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA72628F1AD8E9C2001C1052 /* Build configuration list for PBXProject "YTTickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7262B51AD8E9C3001C1052 /* Debug */,
+				CA7262B61AD8E9C3001C1052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7262B71AD8E9C3001C1052 /* Build configuration list for PBXNativeTarget "YTTickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7262B81AD8E9C3001C1052 /* Debug */,
+				CA7262B91AD8E9C3001C1052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA7262BA1AD8E9C3001C1052 /* Build configuration list for PBXNativeTarget "YTTickerViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7262BB1AD8E9C3001C1052 /* Debug */,
+				CA7262BC1AD8E9C3001C1052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA72628C1AD8E9C2001C1052 /* Project object */;
+}
